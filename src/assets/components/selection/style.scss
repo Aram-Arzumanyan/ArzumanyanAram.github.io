@@ -1,0 +1,30 @@
+.sel_block{
+    width: 100%;
+    font-size: 18px;
+ 
+
+    .s_block{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    color: cornflowerblue;
+    cursor: pointer;
+    
+    }
+
+    .text_block{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .text_none{
+        display: none;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+

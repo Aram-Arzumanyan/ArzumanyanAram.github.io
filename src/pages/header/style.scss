@@ -1,0 +1,65 @@
+.navigation {
+  width: 100%;
+  height: auto;
+  padding-bottom: 64px;
+
+  .bgimg {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/img/simple-house-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+    .max_content {
+      width: 90%;
+      margin: 0 auto;
+      height: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .block_1 {
+        width: 24%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: aliceblue;
+
+        .logo {
+          background-image: url(../../assets/img/simple-house-logo.png);
+          width: 70px;
+          height: 70px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        }
+      }
+
+      .block_2 {
+        width: 76%;
+        display: flex;
+        justify-content: flex-end;
+
+        .text_content {
+          width: 250px;
+          display: flex;
+          justify-content: space-between;
+          color: aliceblue;
+
+          .link {
+            text-decoration: none;
+            color: white;
+            padding-bottom: 10px;
+
+            &:hover{
+              border-bottom: 1px solid antiquewhite;
+            }
+          }
+        }
+      }
+    }
+  }
+}

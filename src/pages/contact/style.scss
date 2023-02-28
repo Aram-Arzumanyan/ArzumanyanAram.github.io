@@ -1,0 +1,165 @@
+.section_contatc {
+  width: 88%;
+  margin: 0 auto;
+
+  .titl_contatc {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+
+    @media(max-width:1024px){
+      width: 100%;
+    }
+  }
+
+  .action {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    @media(max-width:1024px){
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .form_action {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      @media(max-width:1024px){
+        width: 100%;
+      }
+
+      .form {
+        margin: 10px 0;
+        padding: 15px;
+        font-size: 18px;
+        border-right: 0;
+        border-top: 0;
+        border-left: 0;
+        color: #626364;
+        background-color: #fff;
+        &:focus {
+          outline-color: lightblue;
+        }
+      }
+      .btn {
+        margin-top: 20px;
+        width: 100px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background-color: #319966;
+        color: aliceblue;
+        border: none;
+        &:hover {
+          background-color: #1d6e46;
+        }
+      }
+    }
+
+    .info_action {
+      width: 40%;
+      font-size: 20px;
+      line-height: 1.8;
+
+      @media(max-width:1024px){
+        width: 100%;
+      }
+
+      .svg_tel {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media(max-width:1024px){
+          width: 40%;
+         
+        }
+
+        .svg1 {
+          width: 20px;
+          height: 20px;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .svg_tel2 {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media(max-width:1024px){
+          width: 50%;
+          
+        }
+
+        .svg2 {
+          width: 20px;
+          height: 20px;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .icons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        width: 30%;
+        height: 50px;
+
+        @media(max-width:1024px){
+          width: 50%;
+        }
+
+        .ikon1 {
+          width: 20px;
+          height: 20px;
+          background-repeat: no-repeat;
+          cursor: pointer;
+        }
+        .ikon2 {
+          width: 20px;
+          height: 20px;
+          background-repeat: no-repeat;
+          cursor: pointer;
+        }
+        .ikon3 {
+          width: 20px;
+          height: 20px;
+          background-repeat: no-repeat;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .map {
+    padding: 34px 0;
+    width: 70%;
+    margin: auto;
+    height: 300px;
+
+    @media(max-width:1024px){
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .selection {
+    width: 50%;
+    margin: 0 auto;
+
+    @media(max-width:1024px){
+      width: 100%;
+    }
+  }
+}
