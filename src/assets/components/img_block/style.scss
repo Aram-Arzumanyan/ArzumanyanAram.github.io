@@ -6,6 +6,14 @@
   font-size: 20px;
   margin-top: 20px;
 
+  .textimg{
+    width:75%;
+    line-height:1.5;
+
+    @media(max-width:1024px){
+width: 100%;
+    }
+  }
   @media (max-width: 1200px) {
     width: 30%;
     margin: 0 auto;
